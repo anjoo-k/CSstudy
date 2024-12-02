@@ -53,8 +53,8 @@ At this time, the connection has been terminated from client side only since FIN
 7. ACK : This is sent by client to server acknowledges the FIN from server. It is called TIME_WAIT state. The TIME_WAIT state lets the client resend the final acknowledgment in case the ACK is lost.
      - 마지막으로, 처음 FIN을 보낸 측이 이를 확인하는 ACK 패킷을 보냅니다.
      - 이로써 양쪽 모두 연결이 종료되었음을 확인하고, TCP 연결이 완전히 닫힙니다.    
+[참고](https://www.linkedin.com/pulse/tcp-4-way-termination-handshake-ibraham-ajazz)
      
-      
 **++ 추가**
 ### sequence 번호란?
      - TCP에서 데이터는 큰 덩어리가 아니라 작은 조각(세그먼트)으로 나뉘어 전송됩니다.     
@@ -79,4 +79,4 @@ At this time, the connection has been terminated from client side only since FIN
                - 3-Way Handshake에서 클라이언트와 서버는 각각의 **초기 시퀀스 번호(ISN)**를 무작위로 선택합니다.
                - 이 번호는 데이터 스트림의 시작점을 의미하며, 보안을 위해 무작위로 설정
        
-
+[나중에 볼 것] https://www.pixelstech.net/article/1727412048-Why-TCP-needs-3-handshakes
