@@ -18,12 +18,12 @@
         - 사용가능한 암호화 방식과 해시 함수 = 암호 스위트(cipher suite)
 - ServlerHello(서버 to 클라이언트)
     - ClientHello 메시지에 대한 응답
-    - 제시된 벙보를 선택하는 메시지
-    - 선택된 TLS 버전, 암호 스취트 등의 정보, 키를 만들기 위해 사용할 서버의 난수 등
+    - 제시된 정보를 선택하는 메시지
+    - 선택된 TLS 버전, 암호 스위트 등의 정보, 키를 만들기 위해 사용할 서버의 난수 등
     - Certificate, CertificateVerify 메시지도 전송
-        - 인정서, 검증을 위한 디지털 서명 의미
+        - 인증서와 검증을 위한 디지털 서명 의미
         - 클라이언트는 이 메시지 토대로 서버의 공개 키 검증
-- 서버와 클라이언트는 TLS handshake 마지막을 의미한s Finished 메시지 주고 받고,
+- 서버와 클라이언트는 TLS handshake 마지막을 의미하는 Finished 메시지 주고 받고,
 - 이 단계 이후부터 클라이언트와 서버는 키로 암호화된 메시지(암호문, Application Data) 주고 받을 수 있게 됨
 ![image](https://github.com/user-attachments/assets/3411167b-6923-4cf7-bef3-72d84f39b611)    
 [그림출처](https://ptuladhar3.medium.com/testing-ssl-tls-handshake-latency-using-ssl-handshake-6a0c497890d1)   
