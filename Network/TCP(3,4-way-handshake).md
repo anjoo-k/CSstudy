@@ -56,7 +56,7 @@ At this time, the connection has been terminated from client side only since FIN
      
       
 **++ 추가**
-- **sequence 번호란?**
+### sequence 번호란?
      - TCP에서 데이터는 큰 덩어리가 아니라 작은 조각(세그먼트)으로 나뉘어 전송됩니다.     
      - 시퀀스 번호는 각 세그먼트가 전체 데이터 스트림에서 어느 위치에 해당하는지를 나타내는 번호
      - 데이터를 전송할 때마다 시퀀스 번호는 전송된 데이터 바이트의 크기만큼 증가 -> 수신 측에서는 시퀀스 번호를 보고 데이터 순서 맞춤
