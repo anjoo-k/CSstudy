@@ -1,5 +1,6 @@
 # HTTPS: SSL(Secure Sockets Layers)과 TLS(Transport Layer Security)
 - SSL과 TLS는 대칭 키 암호화, 공개 키 암호화 그리고 공개 키 인증서를 기반으로 동작하는 프로토콜
+- SSL을 계승하는 프로토콜이 TLS
 - SSL/TLS를 사용하는 대표적인 프로토콜이 HTTPS
 - HTTPS의 송수신 단계
   
