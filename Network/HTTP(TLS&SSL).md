@@ -25,8 +25,8 @@
 - 서버와 클라이언트는 TLS handshake 마지막을 의미한s Finished 메시지 주고 받고,
 - 이 단계 이후부터 클라이언트와 서버는 키로 암호화된 메시지(암호문, Application Data) 주고 받을 수 있게 됨
 ![image](https://github.com/user-attachments/assets/3411167b-6923-4cf7-bef3-72d84f39b611)    
-[그림출처](https://ptuladhar3.medium.com/testing-ssl-tls-handshake-latency-using-ssl-handshake-6a0c497890d1)
-![image](https://github.com/user-attachments/assets/94756367-c717-4d4a-83a0-254d9c0def11)
-[그림출처](https://www.researchgate.net/figure/SSL-TLS-Handshake-Process-3_fig1_379144405)
-   
-출처 : 혼자 공부하는 네트워크, 강민철
+[그림출처](https://ptuladhar3.medium.com/testing-ssl-tls-handshake-latency-using-ssl-handshake-6a0c497890d1)   
+![image](https://github.com/user-attachments/assets/94756367-c717-4d4a-83a0-254d9c0def11)   
+[그림출처](https://www.researchgate.net/figure/SSL-TLS-Handshake-Process-3_fig1_379144405)   
+    
+출처 : 혼자 공부하는 네트워크, 강민철 
