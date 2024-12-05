@@ -6,7 +6,7 @@
 - Non-Blocking은 요청한 작업의 성공여부와 관련없이 응답 O
   - 데이터가 준비될 때까지 멈춰 있지 않고 다른 작업 계속 할 수 있음
 
-# Blocking I/O
+# Blocking I/O - in java
 1. **싱글 스레드 Blocking**
    - 메인 스레드가 Blocking
    - 다중 클라이언트 요청 동시 처리 불가
@@ -26,7 +26,7 @@
    - 스레드풀 크기가 정해져 있음, 스레드가 미리 만들어져 있음 + Blocking 방식 사용   
      -> CPU, 메모리 활용도 떨어짐 + 스레드 하나가 Blocking 되고 다른 커넥션 처리 불가
      
-# Non-Blocking I/O
+# Non-Blocking I/O - in java
 - Blocking 방식의 스레드 모델 서버는 이해 쉽고 구현 용이
 - 하지만 컴퓨터 리소스 제대로 사용 X
 - 문제 해결법 : I/O 작업을 Non-Blocking 하게 변경해 주는 것   
@@ -46,5 +46,6 @@
 - 이벤트 리스너 역할을 하는 Selector를 사용해 Non-Blocking 작업 처리 가능
   - Selector는 멀티 채널의 작업을 싱글 스레드에서 처리할 수 있도록 해주는 멀티플렉서(multiplexor)역할   
 ![image](https://github.com/user-attachments/assets/04dc754a-6f44-4cbc-88a2-bc3438f24012)   
-[ref](https://mark-kim.blog/understanding-non-blocking-io-and-nio/)   
+[ref1](https://mark-kim.blog/understanding-non-blocking-io-and-nio/)
+[ref2](https://dev-coco.tistory.com/44)    
 [이미지출처](https://dev-coco.tistory.com/44)   
