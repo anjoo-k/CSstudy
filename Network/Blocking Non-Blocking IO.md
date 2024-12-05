@@ -26,7 +26,7 @@
    - 스레드풀 크기가 정해져 있음, 스레드가 미리 만들어져 있음 + Blocking 방식 사용   
      -> CPU, 메모리 활용도 떨어짐 + 스레드 하나가 Blocking 되고 다른 커넥션 처리 불가
      
-# Non-Blocking IO
+# Non-Blocking I/O
 - Blocking 방식의 스레드 모델 서버는 이해 쉽고 구현 용이
 - 하지만 컴퓨터 리소스 제대로 사용 X
 - 문제 해결법 : I/O 작업을 Non-Blocking 하게 변경해 주는 것   
