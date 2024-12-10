@@ -17,4 +17,10 @@
 - 비차단(NonBlocking): 작업이 끝나지 않아도 바로 다음 코드를 실행
 
 
-[출처](https://musma.github.io/2019/04/17/blocking-and-synchronous.html)
+[출처](https://musma.github.io/2019/04/17/blocking-and-synchronous.html)   
+
+### 12/10 CS 스터디
+- 동기-차단, 비동기-비차단 실무에서 주로 사용
+- 동기-비차단, 비동기-차단은 실무에서 사용되지는 않는듯?
+  - 하지만 이렇게 코딩하면 안된다는걸 알기 위해 공부 필요
+  - 변수값 전달할 때 빈 값만 전달 되는 등 실수 발생
