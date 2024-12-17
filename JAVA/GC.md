@@ -61,4 +61,7 @@
 
 
 질문1. 가비지 컬렉션이 어떤 객체를 Garbage로 고르는가?   
-질문2. 가비지 컬렉션의 Young 영역에 대해 아는데로 설명해 보시오.
+질문2. 가비지 컬렉션의 Young 영역에 대해 아는데로 설명해 보시오.   
+   
+출처1 : https://inpa.tistory.com/entry/JAVA-☕-가비지-컬렉션GC-동작-원리-알고리즘-💯-총정리#가비지_컬렉션_청소_방식 [Inpa Dev 👨‍💻:티스토리]   
+출처2 : https://mangkyu.tistory.com/118 [MangKyu's Diary:티스토리]
