@@ -27,7 +27,9 @@
 ### 인터페이스 분리 원칙(ISP, Interface Segregation Principle)
 - **인터페이스를 각각 사용에 잘 맞게 분리해야 한다.**
 - SRP 원칙이 클래스의 단일 책임을 강조, ISP는 인터페이스의 단일 책임 강조
-- SRP 는 클래스 분리를 통해 설계, ISP는 인터페이스 분리 통해 설계 
+- SRP 는 클래스 분리를 통해 설계, ISP는 인터페이스 분리 통해 설계
+
+출처 : https://inpa.tistory.com/entry/OOP-%F0%9F%92%A0-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%EC%84%A4%EA%B3%84%EC%9D%98-5%EA%B0%80%EC%A7%80-%EC%9B%90%EC%B9%99-SOLID
 
 ### 의존 역전 원칙(DIP, Dependency Inversion Principle)
 - 어떤 클래스를 참조해서 사용해야할 상황이 생긴다면, 그 클래스를 직접 참조하지 말고 그 대상의 상위 요소(추상 클래스, 인터페이스)로 참조해야 한다.
