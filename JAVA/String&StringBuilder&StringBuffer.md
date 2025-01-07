@@ -23,6 +23,7 @@ str = str + " World";
 ### StringBuilder/StringBuffer 차이점
 - 멀티쓰레드에서 안전한지
 - StringBuilder는 안전 -> 동기화(Synchronization) 지원하지 않음
-- StringBuffer는 안전하지 않음 -> 동기화 지원해 멀티스레드 환경에서 안전하게 동작 가능
+- StringBuffer는 안전하지 않음 -> 동기화 지원해 멀티스레드 환경에서 안전하게 동작 가능   
    
     
+출처 : https://inpa.tistory.com/entry/JAVA-%E2%98%95-String-StringBuffer-StringBuilder-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%84%B1%EB%8A%A5-%EB%B9%84%EA%B5%90#stringbuffer_/_stringbuilder_%ED%81%B4%EB%9E%98%EC%8A%A4
