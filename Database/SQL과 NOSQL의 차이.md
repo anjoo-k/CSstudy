@@ -16,6 +16,24 @@
 ### SQL
 
 ### NoSQL
+NoSQL의 3가지 주요 유형
+문서(Document) 데이터베이스
+
+예: MongoDB
+JSON 형식으로 데이터를 저장 → 데이터 구조의 유연성이 높음.
+SQL처럼 테이블 구조를 강제하지 않음.
+키-값(Key-Value) 데이터베이스
+
+예: CassandraDB, DynamoDB
+빠른 데이터 읽기/쓰기 속도 제공.
+Netflix, Uber, Apple 같은 대규모 서비스에서 사용.
+그래프(Graph) 데이터베이스
+
+예: Neo4j, Facebook의 Tao
+데이터 간의 관계를 저장하고 조회하는 데 최적화됨.
+소셜 네트워크 서비스에서 주로 활용됨.
+![image](https://github.com/user-attachments/assets/b28b98aa-239d-4cad-abca-ddc88899ca30)
+
 
 
 
@@ -24,3 +42,5 @@ https://ko.wikipedia.org/wiki/SQL
 https://velog.io/@thehill_hannam/RDB-vs-NoSQL
 https://www.integrate.io/ko/blog/the-sql-vs-nosql-difference-ko/
 **https://gowithcode.com/sql-vs-nosql**
+https://velog.io/@thehill_hannam/RDB-vs-NoSQL
+https://ittrue.tistory.com/195
