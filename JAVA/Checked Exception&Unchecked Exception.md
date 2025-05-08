@@ -8,7 +8,7 @@
 - Checked Exception
 - UnChecked Exception
 
-# Checked Exception
+# Checked Exception : 컴파일러가 체크
 - RuntimeException의 하위 클래스 X, Exception의 하위 클래스
 - 반드시 에러 처리를 해야(try-catch)
 - 컴파일 단계에서 발생할 수 있는 예외
